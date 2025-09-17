@@ -1,0 +1,17 @@
+//변수설정
+@import "variables";
+@import "button";
+.btn {
+  padding: 20px 20px;
+  color: #fff;
+  &.primary {
+    background-color: $main-color;
+  }
+  &:hover {
+    background-color: $primary-hover;
+  }
+}
+// .btn.primary{
+//     background-color: $primary;
+// }
+// 를 &.primary 으로 쓸수있다

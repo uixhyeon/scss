@@ -1,0 +1,27 @@
+.scss_btn{
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: $font-main;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: $font-main-size;
+    &.primary{
+        background-color: $main-color;
+          &:hover{
+            background-color: $primary-hover;
+        }
+        color: #fff;
+    }
+    &.secondary{
+        background-color: $sub-color;
+          &:hover{
+            background-color: $sub-color-hover;
+        }
+    }
+    &.danger{
+        background-color: $danger;
+        &:hover{
+            background-color: $danger-hover;
+        }
+    }
+}
